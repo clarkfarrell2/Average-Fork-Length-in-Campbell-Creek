@@ -34,7 +34,18 @@ Question 1: —Removing the null values from the fork length column improves the
 Question 2: The date field was set to a continuous format, which allowed us to create line charts and look at changes over time. Fork length values were averaged to reduce the impact of outliers and make comparisons clearer across different reaches and species. We grouped the data by both reach and species so that patterns could be visualized more easily. Trend lines were added to the line charts to show how fork length changed with date, and Tableau displayed the equations and R² values to measure how strong those relationships were. Finally, we used Tableau’s forecasting tool to project fork lengths beyond the study period, adjusting the forecast length and confidence intervals to fit the dataset.
 
 Results Summary:
-Question 1: - 
+Question 1: 
+Explanation: This chart shows how average fork length of salmon changes by month, species, and river fork location. The two species shown are chinook on the left and coho on the right. Each species has three locations which are Main Stem, North Fork, and South Fork. Within each location the bars show the average fork length for June, July, August, and in some cases September.
+Key points for chinook: In the Main Stem chinook are longest in June at about 80 cm then decrease through July and August.
+ In the North Fork chinook show a similar pattern since June and July hold the smaller values with a small rebound in September.
+ In the South Fork the smallest values occur in August while the largest values appear in September. Chinook in the South Fork also tend to be slightly longer in general than those in the North Fork.
+Key points for coho: In the Main Stem coho are longest in June and decline each month through August.
+ In the North Fork coho again start highest in June and steadily decrease into August and September.
+ In the South Fork coho show a similar trend dropping from June to August then slightly rising in September.
+Overall observations: Fish are generally longest in June across almost every species and fork.
+ Lengths usually decline as the summer progresses likely due to sampling of younger fish later in the season.
+ Chinook have higher fork lengths in general than coho.
+ The South Fork tends to show the smallest August values while September rebounds slightly.
 
 Question 2:
 Analysis of the trend lines revealed several important growth patterns across reaches and species. Main Stem Coho and South Fork salmon (both Coho and Chinook) showed clear positive growth over time, while North Fork salmon exhibited little to no growth, with Coho remaining flat and Chinook declining. Main Stem Chinook also declined slightly, indicating mixed results within that reach. Overall, the South Fork emerged as the most consistent location for growth across both species, whereas the North Fork proved to be the weakest predictor, with flat or negative slopes. Species differences were also evident: Coho generally displayed stronger positive growth slopes than Chinook, whose growth was highly location-dependent, positive in the South Fork but negative in the Main Stem and North Fork. These regression equations can be used to predict fork length for any given day and reach. For example, on Day 20 in the South Fork, the predicted Coho fork length is approximately 58.1 mm, calculated as 0.44217×20+49.25
