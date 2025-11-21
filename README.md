@@ -33,7 +33,9 @@ Importance: The average fork length is a strong indicator of fish health, growth
 
 
 
+The box-and-whisker plot displays how the average fork length varies across the different parts of the creek, varies by month, and by species type. Each reach is represented by a box, which shows the distribution of fork lengths for all salmonids captured at that location. The line inside each box where the shades of green split represents the median fork length, while the upper and lower edges of the box show the 25th and 75th percentiles. The whiskers extend to the minimum and maximum observed lengths, highlighting the overall range of fish sizes within each reach.
 
+The graph showcases the range of lengths, with the bigger boxes representing wider distributions and smaller boxes representing narrower distributions. Overall, the difference in average fork lengths over different sections of the river reflects differences in food availability, water temperature, and other environmental conditions the vary across reaches.
 
 
 Question 2: Can we predict the fork length of a salmonid based on the sampling reach and date of capture during the 2021 Campbell Creek study?
