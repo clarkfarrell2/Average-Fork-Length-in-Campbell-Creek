@@ -19,9 +19,34 @@ Question 1: What is the average fork length of Chinook vs. Coho salmon across al
 
 Importance: The average fork length is a strong indicator of fish health, growth rate, and habitat quality. By comparing these two species of salmon, we can identify species-specific habitat use within each fork of Campbell Creek. The different sizes across the Main Stem, North Forth, and South Fork can reveal which areas support growth faster and which areas may be less productive. Differences by location help agencies understand localized habitat conditions, such as food availability, water temperature, or flow differences. Understanding which forks produce larger salmon can guide management strategies that support long-term fishery sustainability. By using this data, we can sustain healthy salmon populations that ensure the continuation of traditional fishing practices and cultural heritage since salmon have a deep cultural significance for Indigenous communities residing in Alaska. 
 
+
+
+<img width="896" height="556" alt="image" src="https://github.com/user-attachments/assets/a04fd76b-e4cc-48a5-8160-ae13014bbb99" />
+
+<img width="630" height="515" alt="image" src="https://github.com/user-attachments/assets/d71aef1d-ef9e-48b5-9a7e-7ebbe711bc95" />
+
+<img width="642" height="523" alt="image" src="https://github.com/user-attachments/assets/bc1c1a76-fc86-4167-aa76-885c6220f3ac" />
+
+<img width="643" height="522" alt="image" src="https://github.com/user-attachments/assets/f1f385b9-4cfc-4a6f-8f85-1fa100796d02" />
+
+<img width="1107" height="561" alt="image" src="https://github.com/user-attachments/assets/73c90351-f045-4ec5-a5a6-8a42374ad2a2" />
+
+
+
+
+
+
 Question 2: Can we predict the fork length of a salmonid based on the sampling reach and date of capture during the 2021 Campbell Creek study?
 
 Importance: As stated above, fork length is a key indicator for understanding fish health, growth rate, and the quality of the habitat. Being able to predict fork length can reveal spatial and seasonal growth patterns. Predictive models will help identify habitats that produce faster-growing fish. Predictive models also help biologists anticipate when and where salmon will reach key size thresholds. Modeling growth over time will also aid in detecting shifts in timing, such as early or delayed seasonable development due to climate or flow changes. The data for fork length, species, date of capture, and sampling reach are once again the needed variables to answer the predictive analysis question. Reach represents spatial variation, while the date represents temporal variation, making them ideal predictors of growth.
+
+
+
+<img width="897" height="560" alt="image" src="https://github.com/user-attachments/assets/681e40a7-7e88-4a06-a89e-92b9e042555b" />
+
+<img width="163" height="102" alt="image" src="https://github.com/user-attachments/assets/2b23355f-ac34-45a0-b07a-8d69e513cf81" />
+
+
 
 Manipulations applied to the data set of analysis: 
 
@@ -34,15 +59,19 @@ Question 1: —Removing the null values from the fork length column improves the
 Question 2: The date field was set to a continuous format, which allowed us to create line charts and look at changes over time. Fork length values were averaged to reduce the impact of outliers and make comparisons clearer across different reaches and species. We grouped the data by both reach and species so that patterns could be visualized more easily. Trend lines were added to the line charts to show how fork length changed with date, and Tableau displayed the equations and R² values to measure how strong those relationships were. Finally, we used Tableau’s forecasting tool to project fork lengths beyond the study period, adjusting the forecast length and confidence intervals to fit the dataset.
 
 Results Summary:
+
+
 Question 1: 
-Explanation: This chart shows how average fork length of salmon changes by month, species, and river fork location. The two species shown are chinook on the left and coho on the right. Each species has three locations which are Main Stem, North Fork, and South Fork. Within each location the bars show the average fork length for June, July, August, and in some cases September.
-Key points for chinook: In the Main Stem chinook are longest in June at about 80 cm then decrease through July and August.
+
+
+This chart shows how average fork length of salmon changes by month, species, and river fork location. The two species shown are chinook on the left and coho on the right. Each species has three locations which are Main Stem, North Fork, and South Fork. Within each location the bars show the average fork length for June, July, August, and in some cases September.
+In the Main Stem chinook are longest in June at about 80 cm then decrease through July and August.
  In the North Fork chinook show a similar pattern since June and July hold the smaller values with a small rebound in September.
  In the South Fork the smallest values occur in August while the largest values appear in September. Chinook in the South Fork also tend to be slightly longer in general than those in the North Fork.
-Key points for coho: In the Main Stem coho are longest in June and decline each month through August.
+In the Main Stem coho are longest in June and decline each month through August.
  In the North Fork coho again start highest in June and steadily decrease into August and September.
  In the South Fork coho show a similar trend dropping from June to August then slightly rising in September.
-Overall observations: Fish are generally longest in June across almost every species and fork.
+Fish are generally longest in June across almost every species and fork.
  Lengths usually decline as the summer progresses likely due to sampling of younger fish later in the season.
  Chinook have higher fork lengths in general than coho.
  The South Fork tends to show the smallest August values while September rebounds slightly.
